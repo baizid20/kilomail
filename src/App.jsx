@@ -1,14 +1,14 @@
 import React from 'react';
 import Header from './components/Header';
 import Menu from './Menubar/Menu';
-import { Routes } from 'react-router';
-import { Route } from 'react-router';
+import { Routes } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 import InboxPages from './Pages/InboxPages';
 import FavoritePages from './Pages/FavoritePages';
 import DraftPages from './Pages/DraftPages';
 import SentPages from './Pages/SentPages';
 import ComposePages from './Pages/ComposePages';
-
+import InboxFullMail from './FullMail/InboxFullMail';
 const App = () => {
   return (
    <>
@@ -17,7 +17,8 @@ const App = () => {
     <Menu></Menu>
   <div className=' w-9/12 h-9/12 mx-4  overflow-y-scroll'>
      <Routes>
-    <Route path='/' element={<InboxPages/>}/>
+    <Route path='/' element={<InboxPages/> } />
+    <Route path='/inbox/:id' element={<InboxFullMail/> }/>
     <Route path='/fav' element={<FavoritePages/>}/>
     <Route path='/draft' element={<DraftPages/>}/>
     <Route path='/sent' element={<SentPages/>}/>

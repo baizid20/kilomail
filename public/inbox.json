@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "sender": "noreply@google.com",
+    "subject": "Welcome to Gmail",
+    "body": "Thanks for creating a Google account. We're glad you're here!",
+    "time": "2025-08-31T08:45:00",
+    "read": false
+  },
+  {
+    "id": 2,
+    "sender": "newsletter@medium.com",
+    "subject": "Top stories this week",
+    "body": "Check out the most read stories from your favorite writers.",
+    "time": "2025-08-30T15:20:00",
+    "read": true
+  },
+  {
+    "id": 3,
+    "sender": "support@amazon.com",
+    "subject": "Your order has been shipped",
+    "body": "Your order #123456 has been shipped and will arrive soon.",
+    "time": "2025-08-29T11:00:00",
+    "read": false
+  },
+  {
+    "id": 4,
+    "sender": "friend@example.com",
+    "subject": "Weekend plans?",
+    "body": "Hey! Are we still on for the movie this weekend?",
+    "time": "2025-08-28T21:10:00",
+    "read": true
+  },
+  {
+    "id": 5,
+    "sender": "updates@github.com",
+    "subject": "New comment on your pull request",
+    "body": "Someone commented on your recent pull request.",
+    "time": "2025-08-27T13:50:00",
+    "read": true
+  },
+  {
+    "id": 6,
+    "sender": "alerts@bank.com",
+    "subject": "Unusual sign-in detected",
+    "body": "We detected a sign-in attempt from a new device. Was this you?",
+    "time": "2025-08-27T06:30:00",
+    "read": false
+  },
+  {
+    "id": 7,
+    "sender": "info@airbnb.com",
+    "subject": "Your trip is coming up!",
+    "body": "Get ready for your stay in Cox's Bazar next week.",
+    "time": "2025-08-26T18:15:00",
+    "read": true
+  },
+  {
+    "id": 8,
+    "sender": "jobportal@bdjobs.com",
+    "subject": "New jobs that match your profile",
+    "body": "Here are 5 new jobs you might be interested in.",
+    "time": "2025-08-25T09:45:00",
+    "read": false
+  },
+  {
+    "id": 9,
+    "sender": "no-reply@linkedin.com",
+    "subject": "You appeared in 10 searches this week",
+    "body": "Your profile is getting noticed! See who's viewing it.",
+    "time": "2025-08-24T22:05:00",
+    "read": true
+  },
+  {
+    "id": 10,
+    "sender": "team@coursera.org",
+    "subject": "Your course starts tomorrow",
+    "body": "Don't forget! Your Python course begins tomorrow. Good luck!",
+    "time": "2025-08-24T08:00:00",
+    "read": false
+  }
+]
